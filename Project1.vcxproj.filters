@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\250312">
       <UniqueIdentifier>{55744272-d2b3-495f-a4f2-ae5847318fc5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250313">
+      <UniqueIdentifier>{5b0a1c8b-94ab-4639-a514-e02656cd3078}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -92,6 +95,18 @@
     </ClCompile>
     <ClCompile Include="250312_static.cpp">
       <Filter>소스 파일\250312</Filter>
+    </ClCompile>
+    <ClCompile Include="250313_new.cpp">
+      <Filter>소스 파일\250313</Filter>
+    </ClCompile>
+    <ClCompile Include="250313_객체포인터배열.cpp">
+      <Filter>소스 파일\250313</Filter>
+    </ClCompile>
+    <ClCompile Include="250313_객체포인터변수.cpp">
+      <Filter>소스 파일\250313</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터멤버변수를갖는클래스.cpp">
+      <Filter>소스 파일\250313</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
