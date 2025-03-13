@@ -3,8 +3,8 @@
 * ex)
 * class Person {
 * public:
-* char* name;
-* int age;
+*	char* name;
+*	int age;
 * };
 */
 
@@ -24,18 +24,7 @@ public:
 		this->age = age;
 	}
 	~Person();
-
-private:
-
 };
-
-Person::Person()
-{
-}
-
-Person::~Person()
-{
-}
 
 void main()
 {

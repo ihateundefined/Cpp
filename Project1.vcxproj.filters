@@ -87,7 +87,7 @@
     <ClCompile Include="250311_dailyTask6.cpp">
       <Filter>소스 파일\250311</Filter>
     </ClCompile>
-    <ClCompile Include="__250311_dailyTask7.cpp">
+    <ClCompile Include="250311_dailyTask7.cpp">
       <Filter>소스 파일\250311</Filter>
     </ClCompile>
     <ClCompile Include="250311_dailyTask8.cpp">
@@ -106,6 +106,9 @@
       <Filter>소스 파일\250313</Filter>
     </ClCompile>
     <ClCompile Include="포인터멤버변수를갖는클래스.cpp">
+      <Filter>소스 파일\250313</Filter>
+    </ClCompile>
+    <ClCompile Include="dailyTask1.cpp">
       <Filter>소스 파일\250313</Filter>
     </ClCompile>
   </ItemGroup>

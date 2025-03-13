@@ -13,11 +13,15 @@ using namespace std;
 class MousePoint
 {
 public:
-	MousePoint();
+	MousePoint() {
+		cout << "생성자" << endl;
+	};
 
 	MousePoint(int a, int b) {
 		x = a;
 		y = b;
+		
+		cout << "생성자" << endl;
 	}
 
 	int getX() {
@@ -33,25 +37,22 @@ public:
 		y = b;
 	}
 
-	~MousePoint();
+	~MousePoint() {
+		cout << "소멸자" << endl;
+	};
 
 private:
 	int x;
 	int y;
 };
 
-MousePoint::MousePoint()
-{
-}
-
-MousePoint::~MousePoint()
-{
-}
-
 void main()
 {
-	MousePoint arr[];
-	MousePoint* pArr;
+	MousePoint* pt;
+	pt = new MousePoint(100, 200);
 
+	cout << "멤버 변수 출력 >> " << pt->getX() << endl;
+	cout << "멤버 변수 출력 >> " << pt->getY() << endl;
 
+	delete pt;
 }
