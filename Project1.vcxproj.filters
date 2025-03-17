@@ -132,5 +132,14 @@
     <ClCompile Include="250317_상속_employ_정규계약.cpp">
       <Filter>소스 파일\250317</Filter>
     </ClCompile>
+    <ClCompile Include="250317_dailyTask1.cpp">
+      <Filter>소스 파일\250317</Filter>
+    </ClCompile>
+    <ClCompile Include="250317_dailyTask2.cpp">
+      <Filter>소스 파일\250317</Filter>
+    </ClCompile>
+    <ClCompile Include="250317_dailyTask3.cpp">
+      <Filter>소스 파일\250317</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
