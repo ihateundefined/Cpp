@@ -1,9 +1,9 @@
 /*
 * 앞에서 작성한 Person 클래스 사용
-* Person 클래스로 객체 배열을 new 연산자를 사용하여 동적으로 생성
-* 각 요소에 이름과 나이의 값을 각각 대입
-* 배열의 요소를 모두 출력
-* new, delete 사용에 주의
+* 배열의 길이가 3인 객체 포인터 배열을 선언
+* 각 객체에 이름과 나이 데이터를 대입
+* 대입한 배열의 내용을 모두 출력
+* Person *pt[3]
 */
 
 #include <iostream>
@@ -38,18 +38,18 @@ public:
 
 void main()
 {
-	Person *pArr[3];
+	Person *pt[3];
 
-	pArr[0] = new Person("amy", 12);
-	pArr[1] = new Person("tom", 34);
-	pArr[2] = new Person("jacob", 56);
+	pt[0] = new Person("amy", 12);
+	pt[1] = new Person("tom", 34);
+	pt[2] = new Person("jacob", 56);
 
 	for (int i = 0; i < 3; i++) {
-		cout << "이름은 >> " << pArr[i]->GetName() << endl;
-		cout << "나이는 >> " << pArr[i]->GetAge() << endl;
+		cout << "이름은 >> " << pt[i]->GetName() << endl;
+		cout << "나이는 >> " << pt[i]->GetAge() << endl;
 	}
 
 	for (int i = 0; i < 3; i++) {
-		delete pArr[i];
+		delete pt[i];
 	}
 }

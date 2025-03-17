@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\250313">
       <UniqueIdentifier>{5b0a1c8b-94ab-4639-a514-e02656cd3078}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250314">
+      <UniqueIdentifier>{32d47c44-9ac8-4e3f-a01a-3665f8486ffd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -105,11 +108,20 @@
     <ClCompile Include="250313_객체포인터변수.cpp">
       <Filter>소스 파일\250313</Filter>
     </ClCompile>
-    <ClCompile Include="포인터멤버변수를갖는클래스.cpp">
+    <ClCompile Include="string_포인터멤버변수를갖는클래스.cpp">
       <Filter>소스 파일\250313</Filter>
     </ClCompile>
     <ClCompile Include="dailyTask1.cpp">
       <Filter>소스 파일\250313</Filter>
+    </ClCompile>
+    <ClCompile Include="250314_dailyTask1.cpp">
+      <Filter>소스 파일\250314</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자오버로딩.cpp">
+      <Filter>소스 파일\250314</Filter>
+    </ClCompile>
+    <ClCompile Include="복사생성자.cpp">
+      <Filter>소스 파일\250314</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
