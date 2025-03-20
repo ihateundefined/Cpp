@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\250319">
       <UniqueIdentifier>{cd0fcb17-9c01-4769-845c-83d815dd6f2a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250320">
+      <UniqueIdentifier>{b1c7e9a2-4d21-424d-8c77-348a6484e1f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -170,6 +173,12 @@
     </ClCompile>
     <ClCompile Include="250319_template_function.cpp">
       <Filter>소스 파일\250319</Filter>
+    </ClCompile>
+    <ClCompile Include="250320_예외처리.cpp">
+      <Filter>소스 파일\250320</Filter>
+    </ClCompile>
+    <ClCompile Include="250320_예외처리_try.cpp">
+      <Filter>소스 파일\250320</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
