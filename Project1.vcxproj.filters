@@ -180,5 +180,14 @@
     <ClCompile Include="250320_예외처리_try.cpp">
       <Filter>소스 파일\250320</Filter>
     </ClCompile>
+    <ClCompile Include="250320_dailyTask1.cpp">
+      <Filter>소스 파일\250320</Filter>
+    </ClCompile>
+    <ClCompile Include="250320_dailyTask2.cpp">
+      <Filter>소스 파일\250320</Filter>
+    </ClCompile>
+    <ClCompile Include="250320_dailyTask3.cpp">
+      <Filter>소스 파일\250320</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
