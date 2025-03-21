@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\250320">
       <UniqueIdentifier>{b1c7e9a2-4d21-424d-8c77-348a6484e1f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250321">
+      <UniqueIdentifier>{1201e435-0849-43be-b267-fc40bb973be6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -188,6 +191,18 @@
     </ClCompile>
     <ClCompile Include="250320_dailyTask3.cpp">
       <Filter>소스 파일\250320</Filter>
+    </ClCompile>
+    <ClCompile Include="250321_vector_pushBack.cpp">
+      <Filter>소스 파일\250321</Filter>
+    </ClCompile>
+    <ClCompile Include="250321_vector.cpp">
+      <Filter>소스 파일\250321</Filter>
+    </ClCompile>
+    <ClCompile Include="250321_deque.cpp">
+      <Filter>소스 파일\250321</Filter>
+    </ClCompile>
+    <ClCompile Include="250321_list.cpp">
+      <Filter>소스 파일\250321</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
