@@ -1,10 +1,6 @@
 /*
-Shape 클래스를 기반
-자식 클래스의 객체 포인터를 부모 클래스의 객체 포인터로 넘겨받아 멤버함수를 호출
-Shape 클래스 내부에 Draw() 함수 추가
-함수 내부의 구현은 cout<<"Shape의Draw 함수호출"<<endl;
-부모 클래스는 Shape이고, 자식 클래스는 Square로 지정한다.
-부모 클래스의 객체 포인터로 Draw() 함수를 호출하는 코드를 작성하자.
+앞에서 작성한 Shape 클래스를 기반으로 한다.
+앞에서 작성한 가상함수를 순수 가상함수로 만들어보자.
 */
 
 #include <iostream>
@@ -30,9 +26,7 @@ public:
 	int getY() {
 		return y;
 	}
-	void Draw() {
-		cout << "Shape의 Draw 함수 호출" << endl;
-	}
+	virtual void Draw() = 0;
 };
 
 class Square : public Shape {
