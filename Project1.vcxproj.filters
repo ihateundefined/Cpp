@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\250321">
       <UniqueIdentifier>{1201e435-0849-43be-b267-fc40bb973be6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250324">
+      <UniqueIdentifier>{cbe9fb25-70d9-4a03-84ae-32d1b8c12c7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -126,7 +129,7 @@
     <ClCompile Include="string_포인터멤버변수를갖는클래스.cpp">
       <Filter>소스 파일\250313</Filter>
     </ClCompile>
-    <ClCompile Include="dailyTask1.cpp">
+    <ClCompile Include="250313_dailyTask1.cpp">
       <Filter>소스 파일\250313</Filter>
     </ClCompile>
     <ClCompile Include="250314_dailyTask1.cpp">
@@ -203,6 +206,21 @@
     </ClCompile>
     <ClCompile Include="250321_list.cpp">
       <Filter>소스 파일\250321</Filter>
+    </ClCompile>
+    <ClCompile Include="250324_dailyTask1.cpp">
+      <Filter>소스 파일\250324</Filter>
+    </ClCompile>
+    <ClCompile Include="250324_set.cpp">
+      <Filter>소스 파일\250324</Filter>
+    </ClCompile>
+    <ClCompile Include="250324_map.cpp">
+      <Filter>소스 파일\250324</Filter>
+    </ClCompile>
+    <ClCompile Include="250324_iterator.cpp">
+      <Filter>소스 파일\250324</Filter>
+    </ClCompile>
+    <ClCompile Include="250324_dailyTask2.cpp">
+      <Filter>소스 파일\250324</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
