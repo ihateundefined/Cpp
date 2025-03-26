@@ -1,11 +1,8 @@
 /*
 앞의 Employee 클래스를 기반
-이번에는 파생 클래스로 Developer를 작성하여
-Display()를 오버라이딩 한 후 출력하라.
-
-"이름 : XXX
- 주소 : XXX
- 프로그래밍 언어 : C++")
+앞에서 작성했던 Employee의 Display() 메소드를
+Manager 또는 Developer의 객체를 Employee 포인터로 가리킬 때
+Display() 의 동작을 출력해보자.
 */
 
 #include <iostream>
@@ -18,7 +15,7 @@ public:
 	Employee();
 	Employee(const char* szName, const char* szAddr);
 	~Employee();
-	void Display();
+	virtual void Display();
 protected:
 	char* pName;
 	char* pAddr;
@@ -51,6 +48,28 @@ void Employee::Display()
 	cout << "주소 :" << pAddr << endl;
 }
 
+class Manager : public Employee {
+private:
+	char* pRole;
+public:
+	Manager();
+	~Manager()
+	{
+		delete[] pRole;
+	};
+	Manager(const char* pName, const char* pAddr, const char* strRole) : Employee(pName, pAddr)
+	{
+		pRole = new char[strlen(strRole) + 1];
+		strcpy_s(pRole, strlen(strRole) + 1, strRole);
+	}
+	void Display()
+	{
+		cout << "이름 :" << pName << endl;
+		cout << "주소 :" << pAddr << endl;
+		cout << "역할 : " << pRole << endl;
+	}
+};
+
 class Developer : public Employee {
 private:
 	char* pLanguage;
@@ -75,6 +94,11 @@ public:
 
 void main()
 {
+	Manager mng("kale", "Paris", "관리자");
 	Developer dev("laurence", "LA", "C++");
-	dev.Display();
+
+	Employee* emp1 = (Employee*)&mng;
+	Employee* emp2 = (Employee*)&dev;
+	emp1->Display();
+	emp2->Display();
 }
