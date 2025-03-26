@@ -16,10 +16,10 @@ class Employee
 {
 public:
 	Employee();
-	Employee(char* szName, char* szAddr);
+	Employee(const char* szName, const char* szAddr);
 	~Employee();
 	void Display();
-private:
+protected:
 	char* pName;
 	char* pAddr;
 };
@@ -30,7 +30,7 @@ Employee::Employee()
 	pAddr = NULL;
 }
 
-Employee::Employee(char* strName, char* strAddr)
+Employee::Employee(const char* strName, const char* strAddr)
 {
 	cout << "인자가 2개인 생성자 호출" << endl;
 	pName = new char[strlen(strName) + 1];
@@ -41,6 +41,8 @@ Employee::Employee(char* strName, char* strAddr)
 
 Employee::~Employee()
 {
+	delete[] pName;
+	delete[] pAddr;
 }
 
 void Employee::Display()
@@ -49,14 +51,31 @@ void Employee::Display()
 	cout << "주소 :" << pAddr << endl;
 }
 
-class Manager {
+class Manager : public Employee {
 private:
-
+	char* pRole;
 public:
+	Manager();
+	~Manager()
+	{
+		delete[] pRole;
+	};
+	Manager(const char* pRole) : Employee (pName, pAddr)
+	{
+		this->pRole = pRole;
+	}
+	void Display()
+	{
+		cout << "이름 :" << pName << endl;
+		cout << "주소 :" << pAddr << endl;
+		cout << "역할 : " << pRole << endl;
+	}
 };
 
 void main()
 {
 	Employee emp("kim", "seoul");
 	emp.Display();
+
+	Manager mng("park", "incheon", "관리");
 }
