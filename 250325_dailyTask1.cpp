@@ -1,18 +1,13 @@
 /*
-Employee 클래스를 기반
-
 Employee 클래스를 상속받는 Manager 클래스를 만들어,
 Display() 메서드를 오버라이딩하여 매니저의 역할을 출력하시오.
-(예 : 매니저의 역할은 관리이다. 역할은 char* pRole로 선언하고 오버라이딩 된 Display() 함수를 호출하면
-
+(예 : 매니저의 역할은 관리이다.
+역할은 char* pRole로 선언하고 오버라이딩 된 Display() 함수를 호출하면
 "이름 : XXX
  주소 : XXX
- 역할 : 관리 "
-
+ 역할 : 관리"
 로 출력)
-
 */
-
 #include <iostream>
 
 using namespace std;
@@ -27,10 +22,6 @@ public:
 private:
 	char* pName;
 	char* pAddr;
-};
-
-class Manager {
-
 };
 
 Employee::Employee()
@@ -57,6 +48,12 @@ void Employee::Display()
 	cout << "이름 :" << pName << endl;
 	cout << "주소 :" << pAddr << endl;
 }
+
+class Manager {
+private:
+
+public:
+};
 
 void main()
 {

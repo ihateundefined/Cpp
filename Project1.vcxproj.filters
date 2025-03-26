@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\250325">
       <UniqueIdentifier>{08f95adc-092c-4ac7-94e4-3df42ac6fc3b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250326">
+      <UniqueIdentifier>{7c501b22-311d-4f1e-aeda-98cadc25b075}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -236,6 +239,9 @@
     </ClCompile>
     <ClCompile Include="250325_dailyTask1.cpp">
       <Filter>소스 파일\250325</Filter>
+    </ClCompile>
+    <ClCompile Include="250326_algorithm.cpp">
+      <Filter>소스 파일\250326</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
