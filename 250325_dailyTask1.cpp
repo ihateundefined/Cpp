@@ -35,8 +35,8 @@ Employee::Employee(const char* strName, const char* strAddr)
 	cout << "인자가 2개인 생성자 호출" << endl;
 	pName = new char[strlen(strName) + 1];
 	pAddr = new char[strlen(strAddr) + 1];
-	strcpy(pName, strName);
-	strcpy(pAddr, strAddr);
+	strcpy_s(pName, strlen(strName) + 1, strName);
+	strcpy_s(pAddr, strlen(strAddr) + 1, strAddr);
 }
 
 Employee::~Employee()
@@ -60,9 +60,10 @@ public:
 	{
 		delete[] pRole;
 	};
-	Manager(const char* pRole) : Employee (pName, pAddr)
+	Manager(const char* pName, const char* pAddr, const char* strRole) : Employee (pName, pAddr)
 	{
-		this->pRole = pRole;
+		pRole = new char[strlen(strRole) + 1];
+		strcpy_s(pRole, strlen(strRole) + 1, strRole);
 	}
 	void Display()
 	{
@@ -78,4 +79,5 @@ void main()
 	emp.Display();
 
 	Manager mng("park", "incheon", "관리");
+	mng.Display();
 }

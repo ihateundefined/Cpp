@@ -243,5 +243,8 @@
     <ClCompile Include="250326_algorithm.cpp">
       <Filter>소스 파일\250326</Filter>
     </ClCompile>
+    <ClCompile Include="250326_dailyTask1.cpp">
+      <Filter>소스 파일\250326</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
