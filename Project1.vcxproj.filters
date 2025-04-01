@@ -273,5 +273,8 @@
     <ClCompile Include="250401_스마트포인터_autoPtr.cpp">
       <Filter>소스 파일\250401</Filter>
     </ClCompile>
+    <ClCompile Include="250401_warpperClass.cpp">
+      <Filter>소스 파일\250401</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
