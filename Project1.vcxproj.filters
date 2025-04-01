@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\250331">
       <UniqueIdentifier>{d66783a9-e181-4cdf-a6f1-591602c4397f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250401">
+      <UniqueIdentifier>{ef48b44e-bce9-4678-bc26-df6cef436c8c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -263,6 +266,12 @@
     </ClCompile>
     <ClCompile Include="250331_싱글톤패턴_늦은초기화.cpp">
       <Filter>소스 파일\250331</Filter>
+    </ClCompile>
+    <ClCompile Include="250401_스마트포인터_필요성.cpp">
+      <Filter>소스 파일\250401</Filter>
+    </ClCompile>
+    <ClCompile Include="250401_스마트포인터_autoPtr.cpp">
+      <Filter>소스 파일\250401</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
