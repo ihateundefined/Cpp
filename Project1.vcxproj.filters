@@ -64,6 +64,9 @@
     <Filter Include="소스 파일\250401">
       <UniqueIdentifier>{ef48b44e-bce9-4678-bc26-df6cef436c8c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250403">
+      <UniqueIdentifier>{12ea10db-5b50-469d-8106-28549fcca04f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -275,6 +278,18 @@
     </ClCompile>
     <ClCompile Include="250401_warpperClass.cpp">
       <Filter>소스 파일\250401</Filter>
+    </ClCompile>
+    <ClCompile Include="250403_조건부컴파일.cpp">
+      <Filter>소스 파일\250403</Filter>
+    </ClCompile>
+    <ClCompile Include="250403_조건부컴파일_컨테이너.cpp">
+      <Filter>소스 파일\250403</Filter>
+    </ClCompile>
+    <ClCompile Include="250403_참조자.cpp">
+      <Filter>소스 파일\250403</Filter>
+    </ClCompile>
+    <ClCompile Include="250403_이차원포인터.cpp">
+      <Filter>소스 파일\250403</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
