@@ -67,6 +67,9 @@
     <Filter Include="소스 파일\250403">
       <UniqueIdentifier>{12ea10db-5b50-469d-8106-28549fcca04f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\250404">
+      <UniqueIdentifier>{861b0d25-e61c-4a04-b8ac-48c54369bffb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="250306_class.cpp">
@@ -290,6 +293,12 @@
     </ClCompile>
     <ClCompile Include="250403_이차원포인터.cpp">
       <Filter>소스 파일\250403</Filter>
+    </ClCompile>
+    <ClCompile Include="250404_메모리릭추적.cpp">
+      <Filter>소스 파일\250404</Filter>
+    </ClCompile>
+    <ClCompile Include="250404_메모리릭유발.cpp">
+      <Filter>소스 파일\250404</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
